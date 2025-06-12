@@ -1,0 +1,79 @@
+name: Add Dotfiles
+description: Add a dotfiles repo to the list
+labels: ["Add"]
+title: "[ADD] "
+assignees:
+  - 0pandadev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a dotfiles repo!
+        Please fill out the form below to provide details about the dotfiles repo.
+
+  - type: input
+    id: dotfiles-url
+    attributes:
+      label: Dotfiles URL
+      description: Provide the URL to the dotfiles repo
+      placeholder: https://github.com/username/dotfiles
+    validations:
+      required: true
+
+  - type: dropdown
+    id: app-category
+    attributes:
+      label: DE or WM
+      description: Which Desktop Environment or Window Manager does this dotfiles repo use?
+      options:
+        - i3
+        - Sway
+        - Hyprland
+        - dwm
+        - bspwm
+        - AwesomeWM
+        - Qtile
+        - KDE Plasma
+        - GNOME
+        - XFCE
+        - Cinnamon
+        - MATE
+        - Budgie
+        - LXQt
+        - Openbox
+        - Xmonad
+        - Herbstluftwm
+        - LeftWM
+        - StumpWM
+        - Spectrwm
+        - DWL
+        - River
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: dotfiles-description
+    attributes:
+      label: Description
+      description: Your description for the dotfiles preferably the same as the r/unixporn reddit post title.
+    validations:
+      required: true
+
+  - type: input
+    id: reddit-url
+    attributes:
+      label: Reddit URL (optional)
+      description: Provide the URL to the r/unixporn reddit post
+      placeholder: https://www.reddit.com/r/unixporn/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/0pandadev/awesome-dotfiles/blob/main/code-of-conduct.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
