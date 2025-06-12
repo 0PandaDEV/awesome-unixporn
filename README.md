@@ -21,12 +21,43 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 
 # Contents
 
+- [dwm](#dwm)
+- [Gnome](#gnome)
 - [Hyprland](#hyprland)
+- [KDE](#kde)
+- [Sway](#sway)
 - [Yabai](#yabai)
+
+# dwm
+
+- [AlexTheGreat600](https://github.com/AlexTheGreat600/personal-dotfiles) - I love dmenu. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4hm8r/dwm_i_love_dmenu/)
+- [Pixel2175](https://github.com/pixel2175/dots) - pywal but if its Fast-Minimal-Simple. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8hmzh/walrs_pywal_but_if_its_fastminimalsimple_with_dwm/)
+- [sansroot](https://github.com/sansroot/dwm-dots) - dwm or hyprland? [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7s0ak/dwm_or_hyprland/)
+
+# Gnome
+
+- [Aevstiel](https://github.com/Aevstiel/Lycia-Dots/) - Redo of my older rice with my own color palette. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8j5au/oc_gnome_redo_of_my_older_rice_with_my_own_color/)
 
 # Hyprland
 
-- [geehevic](https://github.com/geehevic/dotfiles) - my first rice [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
+- [ad1822](https://github.com/ad1822/hyprdots) - Simple and Productive. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l858m2/hyprland_simple_and_productive/)
+- [fakesproink](https://github.com/fakesproink/NixOS-Configuration) - Right about where it should be. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l640yq/hyprland_right_about_where_it_should_be/)
+- [dybdeskarhet](https://github.com/dybdeskarphet/dotfiles) - what are they talking about? [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/)
+- [geehevic](https://github.com/geehevic/dotfiles) - my first rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
+
+# KDE
+
+- [yayuuu](https://github.com/yayuuu/my-configs/) - My Plasma thinks it's Gnome. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l96act/kde_my_plasma_thinks_its_gnome/)
+
+# Niri
+
+- [binarylinuxx](https://github.com/binarylinuxx/graphite-nvim) - graphite nvim [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/)
+
+# Sway
+
+- [auth-xyz](https://github.com/auth-xyz/sway) - simple-ish swayfx rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7rm37/sway_simpleish_swayfx_rice/)
+- [RYLKYA](https://github.com/RYLKYA/rylkya.dotfiles) - Red themed rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l3xwpc/swayfx_red_themed_rice/)
+- [senni-huemwang](https://github.com/senni-huemwang/dotfiles) - as minimal as one can get. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4ohod/sway_as_minimal_as_one_can_get/)
 
 # Yabai
 
