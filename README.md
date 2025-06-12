@@ -22,9 +22,14 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 # Contents
 
 - [Hyprland](#hyprland)
+- [Yabai](#yabai)
 
 # Hyprland
 
-- [geehevic](https://github.com/geehevic/dotfiles) - my first rice [![Open-Source Software][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
+- [geehevic](https://github.com/geehevic/dotfiles) - my first rice [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
+
+# Yabai
+
+- [moonlinx](https://github.com/moonlinx/dotfiles) - My first MacOS rice! I hope you all like it :) [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4eoyc/yabai_my_first_macos_rice_i_hope_you_all_like_it/)
 
 [reddit]: /assets/reddit.svg
