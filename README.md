@@ -48,7 +48,7 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 - [Chiron8](https://github.com/Chiron8/Glaciera-Dots) - My first rice (and using Gentoo!) [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/)
 - [fakesproink](https://github.com/fakesproink/NixOS-Configuration) - Right about where it should be. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l640yq/hyprland_right_about_where_it_should_be/)
 - [GarroNinja](https://github.com/GarroNinja/gruvbox-hyprland) - Minimal gruvbox themed rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l72g6n/hyprland_minimal_gruvbox_themed_rice/)
-- [geehevic](https://github.com/geehevic/dotfiles) - my first rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
+- [ghvchsauce](https://github.com/ghvchsauce/dotfiles) - my first rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
 - [papengav](https://github.com/papengav/dotfiles) - Minimal Catpuccin + Macchiato. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7es0j/hyprland_minimal_catpuccin_macchiato/)
 - [soramannew](https://github.com/caelestia-dots/shell) - I <3 Quickshell. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/)
 
