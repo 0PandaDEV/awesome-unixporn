@@ -26,15 +26,18 @@ body:
       label: DE or WM
       description: Which Desktop Environment or Window Manager does this dotfiles repo use?
       options:
-        - i3
-        - Sway
-        - Hyprland
         - dwm
+        - Gnome
+        - Hyprland
+        - KDE
+        - maomaowm
+        - Niri
+        - Sway
+        - Yabai
+        - i3
         - bspwm
         - AwesomeWM
         - Qtile
-        - KDE Plasma
-        - GNOME
         - XFCE
         - Cinnamon
         - MATE

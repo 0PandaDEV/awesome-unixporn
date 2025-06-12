@@ -26,7 +26,8 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 - [Gnome](#gnome)
 - [Hyprland](#hyprland)
 - [KDE](#kde)
-- [maomaowm]
+- [maomaowm](#maomaowm)
+- [Niri](#niri)
 - [Sway](#sway)
 - [Yabai](#yabai)
 
