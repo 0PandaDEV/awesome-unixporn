@@ -1,4 +1,4 @@
-![Awesome Dotfiles](https://github.com/user-attachments/assets/f9508bec-4085-4e6b-9a94-7f10053843cb)
+![Awesome Dotfiles](https://github.com/user-attachments/assets/2b36e98c-fe50-48b1-b2b5-af9cf2c1524b)
 
 This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/unixporn/) posts. All the dotfiles are sorted by the Desktop Environment or Window Manager they use.
 
