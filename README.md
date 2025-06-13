@@ -44,6 +44,7 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 # Gnome
 
 - [Aevstiel](https://github.com/Aevstiel/Lycia-Dots/) - Redo of my older rice with my own color palette. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8j5au/oc_gnome_redo_of_my_older_rice_with_my_own_color/)
+- [kayozxo](https://github.com/kayozxo/GNOME-macOS-Tahoe) - macOS Tahoe but BETTER. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9dqpk/gnome_macos_tahoe_but_better/)
 
 # Hyprland
 
