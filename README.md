@@ -67,7 +67,11 @@ This is a collection of dotfiles from all [r/unixporn](https://www.reddit.com/r/
 
 # Niri
 
-- [binarylinuxx](https://github.com/binarylinuxx/graphite-nvim) - graphite nvim [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/)
+- [binarylinuxx](https://github.com/binarylinuxx/graphite-nvim) - graphite nvim. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/)
+
+# Qtile
+
+- [Darkkal44](https://github.com/darkkal44/cozytile) - E-Ink Cozytile. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1lc32hm/qtile_eink_cozytile/)
 
 # Sway
 
