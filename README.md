@@ -18,8 +18,6 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 
 ###### [Check out my dotfiles](https://github.com/0PandaDEV/dotfiles)
 
-
-
 # Contents
 
 - [dwm](#dwm)
@@ -42,7 +40,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l4hm8r/dwm_i_love_dmenu/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/b6ecb8f7-5d9c-4ce8-947d-18f14340d228" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -89,7 +87,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l8j5au/oc_gnome_redo_of_my_older_rice_with_my_own_color/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/fbbd2643-df3d-4cb6-9716-3f8a66277599" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -104,7 +102,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l9dqpk/gnome_macos_tahoe_but_better/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/99cdd12b-19f1-40f0-b72a-fa9122dc9822" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -121,7 +119,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l858m2/hyprland_simple_and_productive/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/47121ee8-f207-496d-afa3-edc46be4ec26" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -136,7 +134,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/86bd889e-6286-4e56-a553-40560d761dc2" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -151,7 +149,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/1c6edef5-45d7-470d-9206-27b91fb6c26f" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -166,7 +164,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l640yq/hyprland_right_about_where_it_should_be/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/83ba3dac-5811-4cf0-a67f-b23a22f16778" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -181,7 +179,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l72g6n/hyprland_minimal_gruvbox_themed_rice/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/4247b6eb-423d-43ef-a58d-08e5b7f2ad8e" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -196,7 +194,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/e8b00cb3-576b-4abd-a780-dc63e58c8ac4" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -211,7 +209,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l7es0j/hyprland_minimal_catpuccin_macchiato/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/28206f12-a335-4c91-8c34-8c21259e7ad4" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -226,7 +224,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/c5e90732-25ac-48af-89b0-72c6cbe42497" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -243,7 +241,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l96act/kde_my_plasma_thinks_its_gnome/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/ab125922-4d0a-4560-a861-65922cb16a40" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -260,7 +258,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l65s00/maomaowm_more_concise_style/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/2b433143-ec2b-4a3f-8207-b2333f592260" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -277,7 +275,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/5acc316a-1f50-471c-a5ff-a9ddcb1464b0" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -294,7 +292,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1lc32hm/qtile_eink_cozytile/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/206c4158-dc3b-4515-b9b0-7032062f53b4" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -311,7 +309,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l7rm37/sway_simpleish_swayfx_rice/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/6b80448e-0eb9-491d-b811-d0799947cfc4" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -326,7 +324,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l3xwpc/swayfx_red_themed_rice/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/a10e6a6e-6a29-43e5-95b2-6ac4c21131b3" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -341,7 +339,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l4ohod/sway_as_minimal_as_one_can_get/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/c2ae4bc6-14dd-4ad8-bfd2-d2ad41e61d09" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -358,7 +356,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   <tr>
     <td>
       <a href="https://www.reddit.com/r/unixporn/comments/1l4eoyc/yabai_my_first_macos_rice_i_hope_you_all_like_it/">
-        <img src="/assets/reddit.svg" alt="reddit post"/>
+        <img src="https://github.com/user-attachments/assets/578e4d81-648a-45c6-97e0-5ceefd429dd4" alt="reddit post"/>
       </a>
     </td>
   </tr>
