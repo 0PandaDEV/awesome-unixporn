@@ -11,10 +11,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tbody>
     <tr>
-      <td>
-        <img src="/assets/reddit.svg" width="16px"/>
-      </td>
-      <td>Link to the r/unixporn post.</td>
+      <td>Click on the imge to get to the reddit post.</td>
     </tr>
   </tbody>
 </table>
@@ -36,50 +33,333 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 
 # dwm
 
-- [AlexTheGreat600](https://github.com/AlexTheGreat600/personal-dotfiles) - I love dmenu. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4hm8r/dwm_i_love_dmenu/)
-- [Pixel2175](https://github.com/pixel2175/dots) - pywal but if its Fast-Minimal-Simple. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8hmzh/walrs_pywal_but_if_its_fastminimalsimple_with_dwm/)
-- [sansroot](https://github.com/sansroot/dwm-dots) - dwm or hyprland? [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7s0ak/dwm_or_hyprland/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/AlexTheGreat600/personal-dotfiles">AlexTheGreat600</a> - I love dmenu.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l4hm8r/dwm_i_love_dmenu/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/pixel2175/dots">Pixel2175</a> - pywal but if its Fast-Minimal-Simple.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l8hmzh/walrs_pywal_but_if_its_fastminimalsimple_with_dwm/">
+        <img src="https://github.com/user-attachments/assets/cc1e64aa-41ee-431b-b21a-1b4d298cdc3f" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/sansroot/dwm-dots">sansroot</a> - dwm or hyprland?
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l7s0ak/dwm_or_hyprland/">
+        <img src="https://github.com/user-attachments/assets/f0a725ca-a11c-44d4-a008-7a036a0a9332" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Gnome
 
-- [Aevstiel](https://github.com/Aevstiel/Lycia-Dots/) - Redo of my older rice with my own color palette. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8j5au/oc_gnome_redo_of_my_older_rice_with_my_own_color/)
-- [kayozxo](https://github.com/kayozxo/GNOME-macOS-Tahoe) - macOS Tahoe but BETTER. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9dqpk/gnome_macos_tahoe_but_better/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Aevstiel/Lycia-Dots/">Aevstiel</a> - Redo of my older rice with my own color palette.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l8j5au/oc_gnome_redo_of_my_older_rice_with_my_own_color/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/kayozxo/GNOME-macOS-Tahoe">kayozxo</a> - macOS Tahoe but BETTER.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l9dqpk/gnome_macos_tahoe_but_better/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Hyprland
 
-- [ad1822](https://github.com/ad1822/hyprdots) - Simple and Productive. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l858m2/hyprland_simple_and_productive/)
-- [dybdeskarhet](https://github.com/dybdeskarphet/dotfiles) - what are they talking about? [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/)
-- [Chiron8](https://github.com/Chiron8/Glaciera-Dots) - My first rice (and using Gentoo!) [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/)
-- [fakesproink](https://github.com/fakesproink/NixOS-Configuration) - Right about where it should be. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l640yq/hyprland_right_about_where_it_should_be/)
-- [GarroNinja](https://github.com/GarroNinja/gruvbox-hyprland) - Minimal gruvbox themed rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l72g6n/hyprland_minimal_gruvbox_themed_rice/)
-- [ghvchsauce](https://github.com/ghvchsauce/dotfiles) - my first rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/)
-- [papengav](https://github.com/papengav/dotfiles) - Minimal Catpuccin + Macchiato. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7es0j/hyprland_minimal_catpuccin_macchiato/)
-- [soramannew](https://github.com/caelestia-dots/shell) - I <3 Quickshell. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/ad1822/hyprdots">ad1822</a> - Simple and Productive.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l858m2/hyprland_simple_and_productive/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/dybdeskarphet/dotfiles">dybdeskarhet</a> - what are they talking about?
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Chiron8/Glaciera-Dots">Chiron8</a> - My first rice (and using Gentoo!)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/fakesproink/NixOS-Configuration">fakesproink</a> - Right about where it should be.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l640yq/hyprland_right_about_where_it_should_be/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/GarroNinja/gruvbox-hyprland">GarroNinja</a> - Minimal gruvbox themed rice.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l72g6n/hyprland_minimal_gruvbox_themed_rice/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/ghvchsauce/dotfiles">ghvchsauce</a> - my first rice.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l9nguq/hyprland_my_first_rice/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/papengav/dotfiles">papengav</a> - Minimal Catpuccin + Macchiato.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l7es0j/hyprland_minimal_catpuccin_macchiato/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/caelestia-dots/shell">soramannew</a> - I <3 Quickshell.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # KDE
 
-- [yayuuu](https://github.com/yayuuu/my-configs/) - My Plasma thinks it's Gnome. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l96act/kde_my_plasma_thinks_its_gnome/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/yayuuu/my-configs/">yayuuu</a> - My Plasma thinks it's Gnome.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l96act/kde_my_plasma_thinks_its_gnome/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # maomaowm
 
-- [DreamMaoMao](https://github.com/DreamMaoMao/dotfile) - more concise style. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l65s00/maomaowm_more_concise_style/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/DreamMaoMao/dotfile">DreamMaoMao</a> - more concise style.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l65s00/maomaowm_more_concise_style/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Niri
 
-- [binarylinuxx](https://github.com/binarylinuxx/graphite-nvim) - graphite nvim. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/binarylinuxx/graphite-nvim">binarylinuxx</a> - graphite nvim.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l8b3vj/niri_graphite_ignis_widgets/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Qtile
 
-- [Darkkal44](https://github.com/darkkal44/cozytile) - E-Ink Cozytile. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1lc32hm/qtile_eink_cozytile/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/darkkal44/cozytile">Darkkal44</a> - E-Ink Cozytile.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1lc32hm/qtile_eink_cozytile/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Sway
 
-- [auth-xyz](https://github.com/auth-xyz/sway) - simple-ish swayfx rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l7rm37/sway_simpleish_swayfx_rice/)
-- [RYLKYA](https://github.com/RYLKYA/rylkya.dotfiles) - Red themed rice. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l3xwpc/swayfx_red_themed_rice/)
-- [senni-huemwang](https://github.com/senni-huemwang/dotfiles) - as minimal as one can get. [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4ohod/sway_as_minimal_as_one_can_get/)
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/auth-xyz/sway">auth-xyz</a> - simple-ish swayfx rice.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l7rm37/sway_simpleish_swayfx_rice/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/RYLKYA/rylkya.dotfiles">RYLKYA</a> - Red themed rice.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l3xwpc/swayfx_red_themed_rice/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/senni-huemwang/dotfiles">senni-huemwang</a> - as minimal as one can get.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l4ohod/sway_as_minimal_as_one_can_get/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 # Yabai
 
-- [moonlinx](https://github.com/moonlinx/dotfiles) - My first MacOS rice! I hope you all like it :) [![reddit][reddit]](https://www.reddit.com/r/unixporn/comments/1l4eoyc/yabai_my_first_macos_rice_i_hope_you_all_like_it/)
-
-[reddit]: /assets/reddit.svg
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/moonlinx/dotfiles">moonlinx</a> - My first MacOS rice! I hope you all like it :)
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l4eoyc/yabai_my_first_macos_rice_i_hope_you_all_like_it/">
+        <img src="/assets/reddit.svg" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
