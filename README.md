@@ -11,7 +11,10 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tbody>
     <tr>
-      <td>Click on the imge to get to the reddit post.</td>
+      <td>Click on the username to get to the dotfiles.</td>
+    </tr>
+    <tr>
+      <td>Click on the image to get to the reddit post.</td>
     </tr>
   </tbody>
 </table>
