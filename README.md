@@ -29,6 +29,7 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 - [KDE](#kde)
 - [maomaowm](#maomaowm)
 - [Niri](#niri)
+- [Qtile](#qtile)
 - [Sway](#sway)
 - [Yabai](#yabai)
 
@@ -131,13 +132,13 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
-      <a href="https://github.com/dybdeskarphet/dotfiles">dybdeskarhet</a> - what are they talking about?
+      <a href="https://github.com/Chiron8/Glaciera-Dots">Chiron8</a> - My first rice (and using Gentoo!)
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/">
-        <img src="https://github.com/user-attachments/assets/86bd889e-6286-4e56-a553-40560d761dc2" alt="reddit post"/>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/">
+        <img src="https://github.com/user-attachments/assets/1c6edef5-45d7-470d-9206-27b91fb6c26f" alt="reddit post"/>
       </a>
     </td>
   </tr>
@@ -146,13 +147,13 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
-      <a href="https://github.com/Chiron8/Glaciera-Dots">Chiron8</a> - My first rice (and using Gentoo!)
+      <a href="https://github.com/dybdeskarphet/dotfiles">dybdeskarhet</a> - what are they talking about?
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.reddit.com/r/unixporn/comments/1l6jpyz/hyprland_my_first_rice_and_using_gentoo/">
-        <img src="https://github.com/user-attachments/assets/1c6edef5-45d7-470d-9206-27b91fb6c26f" alt="reddit post"/>
+      <a href="https://www.reddit.com/r/unixporn/comments/1l9ofd5/hyprland_what_are_they_talking_about/">
+        <img src="https://github.com/user-attachments/assets/86bd889e-6286-4e56-a553-40560d761dc2" alt="reddit post"/>
       </a>
     </td>
   </tr>
