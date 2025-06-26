@@ -36,7 +36,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             BODY="${{ steps.get_issue.outputs.body }}"
           fi
-          if echo "$BODY" | grep -Eq '-\s*\[[xX]\]\s*I want to automatically add it'; then
+          if [[ "$BODY" = *"- [x] I want to automatically add it"* ]] || [[ "$BODY" = *"- [X] I want to automatically add it"* ]]; then
             echo "auto_convert=true" >> $GITHUB_OUTPUT
           else
             echo "auto_convert=false" >> $GITHUB_OUTPUT
