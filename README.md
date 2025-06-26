@@ -162,6 +162,27 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/dillacorn/arch-hypr-dots">dillacorn</a> - This isn't just a collection of dotfiles. It also includes installation scripts written by dillacorn for users who have already installed Arch, whether through archinstall or manually.
+
+You'll also find some helpful scripts that can be used inside ~/.config/hypr/scripts. These were all created with a mix of personal experience and AI assistance, then fully tested across a wide range of setups including QEMU VMs, systems with Nvidia or AMD GPUs, desktops, and laptops. The install scripts take care of a lot of system tweaks to improve performance and compatibility.
+
+Feel free to take and tweak any of the scripts to fit your own setup. You can even redistribute them however you like. No strings attached.
+
+Video I made on the repo: https://youtu.be/RWTwN0GX61I
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="_No response_">
+        <img src="https://raw.githubusercontent.com/dillacorn/arch-hypr-dots/refs/heads/main/previews/overview.png" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/dybdeskarphet/dotfiles">dybdeskarhet</a> - what are they talking about?
     </td>
   </tr>
