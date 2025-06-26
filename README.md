@@ -233,6 +233,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   </tr>
 </table>
 
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Beast-Viper/ViperDots-Hyprland">Beast-Viper</a> - My Colourful Hyprland setup.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://github.com/user-attachments/assets/3ec17fbb-fb3d-446a-bc24-e69ebe8c57f5" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
 # KDE
 
 <table>
