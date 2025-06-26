@@ -26,7 +26,7 @@ const getField = (id) => {
 };
 
 const getCheckbox = (id, label) => {
-  const re = new RegExp(`- [([ xX])] ${label}`);
+  const re = new RegExp(`- \\[([ xX])\\] ${label}`);
   const f = issue.body.match(re);
   return f && f[1] !== " " ? true : false;
 };
