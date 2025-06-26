@@ -23,15 +23,41 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 
 # Contents
 
+- [AwesomeWM](#awesomewm)
+- [bspwm](#bspwm)
+- [Budgie](#budgie)
+- [Cinnamon](#cinnamon)
+- [DWL](#dwl)
 - [dwm](#dwm)
 - [Gnome](#gnome)
+- [Herbstluftwm](#herbstluftwm)
 - [Hyprland](#hyprland)
+- [i3](#i3)
 - [KDE](#kde)
+- [LeftWM](#leftwm)
+- [LXQt](#lxqt)
 - [maomaowm](#maomaowm)
+- [MATE](#mate)
 - [Niri](#niri)
+- [Openbox](#openbox)
 - [Qtile](#qtile)
+- [River](#river)
+- [Spectrwm](#spectrwm)
+- [StumpWM](#stumpwm)
 - [Sway](#sway)
+- [XFCE](#xfce)
+- [Xmonad](#xmonad)
 - [Yabai](#yabai)
+
+# AwesomeWM
+
+# bspwm
+
+# Budgie
+
+# Cinnamon
+
+# DWL
 
 # dwm
 
@@ -378,6 +404,28 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
     </td>
   </tr>
 </table>
+
+# Herbstluftwm
+
+# i3
+
+# LeftWM
+
+# LXQt
+
+# MATE
+
+# Openbox
+
+# River
+
+# Spectrwm
+
+# StumpWM
+
+# XFCE
+
+# Xmonad
 
 # Yabai
 
