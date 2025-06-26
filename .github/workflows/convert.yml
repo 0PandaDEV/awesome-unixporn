@@ -49,13 +49,17 @@ jobs:
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-      - name: Run auto-add-dotfile script
-        if: steps.check_autoconvert.outputs.auto_convert == 'true'
+      - name: Run auto-add-dotfile script (workflow_dispatch)
+        if: steps.check_autoconvert.outputs.auto_convert == 'true' && github.event_name == 'workflow_dispatch'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_JSON: ${{ steps.get_issue.outputs.json }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ steps.get_issue.outputs.json }}' | jq -c '@html')"
-          else
-            bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ toJson(github.event.issue) }}' | jq -c '@html')"
-          fi
+          echo "$ISSUE_JSON" | bun .github/scripts/auto-add-dotfile.mjs
+      - name: Run auto-add-dotfile script (issues)
+        if: steps.check_autoconvert.outputs.auto_convert == 'true' && github.event_name != 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_JSON: ${{ toJson(github.event.issue) }}
+        run: |
+          echo "$ISSUE_JSON" | bun .github/scripts/auto-add-dotfile.mjs

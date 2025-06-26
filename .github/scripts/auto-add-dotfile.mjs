@@ -1,7 +1,12 @@
 import { readFile } from "fs/promises";
 import { Octokit } from "octokit";
 
-const issueRaw = process.argv[2];
+// Read JSON from stdin
+let issueRaw = "";
+for await (const chunk of process.stdin) {
+  issueRaw += chunk;
+}
+
 const issue = JSON.parse(issueRaw);
 const token = process.env.GITHUB_TOKEN;
 const octokit = new Octokit({ auth: token });
@@ -14,8 +19,8 @@ const getField = (id) => {
   const f = issue.body.match(
     new RegExp(
       `\n\s*### ${id.replace(/[-]/g, "[-]")}\n([\s\S]*?)(?=\n### |$)`,
-      "i"
-    )
+      "i",
+    ),
   );
   return f ? f[1].trim() : "";
 };
@@ -28,7 +33,7 @@ const getCheckbox = (id, label) => {
 
 const autoConvertChecked = getCheckbox(
   "auto-convert",
-  "I want to automatically add it"
+  "I want to automatically add it",
 );
 if (!autoConvertChecked) process.exit(0);
 
