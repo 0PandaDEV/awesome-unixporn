@@ -8,7 +8,7 @@ on:
       issue_number:
         description: 'Issue number to process'
         required: true
-        type: number
+        type: string
 
 jobs:
   auto-convert:
