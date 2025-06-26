@@ -162,6 +162,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/dillacorn/arch-hypr-dots">dillacorn</a> - Simple dynamic Hypr setup - app installation scripts included.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="_No response_">
+        <img src="https://raw.githubusercontent.com/dillacorn/arch-hypr-dots/refs/heads/main/previews/overview.png" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/dybdeskarphet/dotfiles">dybdeskarhet</a> - what are they talking about?
     </td>
   </tr>
