@@ -1,5 +1,4 @@
-import { readFile } from "fs/promises";
-import { Octokit } from "octokit";
+import { readFile, writeFile } from "fs/promises";
 
 // Read JSON from stdin
 let issueRaw = "";
@@ -8,11 +7,6 @@ for await (const chunk of process.stdin) {
 }
 
 const issue = JSON.parse(issueRaw);
-const token = process.env.GITHUB_TOKEN;
-const octokit = new Octokit({ auth: token });
-
-// Extract repo and issue number from the issue data
-const repo = issue.repository_url.replace("https://api.github.com/repos/", "");
 const issueNumber = issue.number;
 
 const getField = (id) => {
@@ -64,55 +58,13 @@ const table = `\n<table>\n  <tr>\n    <td>\n      <a href=\"${dotfilesUrl}\">${u
 }\">\n        <img src=\"${imgUrl}\" alt=\"reddit post\"/>\n      </a>\n    </td>\n  </tr>\n</table>\n`;
 
 const newReadme = before + table + after;
-const branch = `auto/add-dotfile-${issueNumber}`;
 
-const { data: branchData } = await octokit.rest.repos.getBranch({
-  owner: repo.split("/")[0],
-  repo: repo.split("/")[1],
-  branch: (
-    await octokit.rest.repos.get({
-      owner: repo.split("/")[0],
-      repo: repo.split("/")[1],
-    })
-  ).data.default_branch,
-});
+// Write the updated README to the file system
+await writeFile(readmePath, newReadme, "utf8");
 
-await octokit.rest.git.createRef({
-  owner: repo.split("/")[0],
-  repo: repo.split("/")[1],
-  ref: `refs/heads/${branch}`,
-  sha: branchData.commit.sha,
-});
-
-const {
-  data: { sha },
-} = await octokit.rest.repos.getContent({
-  owner: repo.split("/")[0],
-  repo: repo.split("/")[1],
-  path: readmePath,
-  ref: branch,
-});
-
-await octokit.rest.repos.createOrUpdateFileContents({
-  owner: repo.split("/")[0],
-  repo: repo.split("/")[1],
-  path: readmePath,
-  message: `feat(readme): add ${username} dotfiles for ${section}`,
-  content: Buffer.from(newReadme).toString("base64"),
-  branch,
-  sha,
-});
-
-await octokit.rest.pulls.create({
-  owner: repo.split("/")[0],
-  repo: repo.split("/")[1],
-  title: `add: ${username} dotfiles for ${section}`,
-  head: branch,
-  base: (
-    await octokit.rest.repos.get({
-      owner: repo.split("/")[0],
-      repo: repo.split("/")[1],
-    })
-  ).data.default_branch,
-  body: `auto add from issue #${issueNumber}`,
-});
+console.log(
+  `✅ Updated ${readmePath} with ${username}'s dotfiles for ${section}`,
+);
+console.log(`📝 Description: ${description}`);
+console.log(`🔗 Dotfiles URL: ${dotfilesUrl}`);
+console.log(`📱 Reddit URL: ${redditUrl || "N/A"}`);

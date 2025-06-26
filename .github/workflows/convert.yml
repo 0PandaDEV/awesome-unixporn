@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
   issues: read
 
 jobs:
@@ -54,17 +53,35 @@ jobs:
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-      - name: Run auto-add-dotfile script (workflow_dispatch)
-        if: steps.check_autoconvert.outputs.auto_convert == 'true' && github.event_name == 'workflow_dispatch'
+      - name: Run auto-add-dotfile script
+        if: steps.check_autoconvert.outputs.auto_convert == 'true'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_JSON: ${{ steps.get_issue.outputs.json }}
+          ISSUE_JSON: ${{ github.event_name == 'workflow_dispatch' && steps.get_issue.outputs.json || toJson(github.event.issue) }}
         run: |
           echo "$ISSUE_JSON" | bun .github/scripts/auto-add-dotfile.mjs
-      - name: Run auto-add-dotfile script (issues)
-        if: steps.check_autoconvert.outputs.auto_convert == 'true' && github.event_name != 'workflow_dispatch'
+      - name: Extract dotfiles info for PR
+        if: steps.check_autoconvert.outputs.auto_convert == 'true'
+        id: dotfiles_info
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_JSON: ${{ toJson(github.event.issue) }}
+          ISSUE_JSON: ${{ github.event_name == 'workflow_dispatch' && steps.get_issue.outputs.json || toJson(github.event.issue) }}
         run: |
-          echo "$ISSUE_JSON" | bun .github/scripts/auto-add-dotfile.mjs
+          ISSUE_DATA=$(echo "$ISSUE_JSON")
+          USERNAME=$(echo "$ISSUE_DATA" | jq -r '.body' | grep -A1 "### Dotfiles URL" | tail -1 | sed 's|https://github.com/||' | cut -d'/' -f1)
+          SECTION=$(echo "$ISSUE_DATA" | jq -r '.body' | grep -A1 "### DE or WM" | tail -1 | tr -d ' ')
+          ISSUE_NUM=$(echo "$ISSUE_DATA" | jq -r '.number')
+          echo "username=$USERNAME" >> $GITHUB_OUTPUT
+          echo "section=$SECTION" >> $GITHUB_OUTPUT
+          echo "issue_number=$ISSUE_NUM" >> $GITHUB_OUTPUT
+      - name: Create Pull Request
+        if: steps.check_autoconvert.outputs.auto_convert == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat(readme): add ${{ steps.dotfiles_info.outputs.username }} dotfiles for ${{ steps.dotfiles_info.outputs.section }}"
+          title: "add: ${{ steps.dotfiles_info.outputs.username }} dotfiles for ${{ steps.dotfiles_info.outputs.section }}"
+          body: |
+            Auto-generated PR from issue #${{ steps.dotfiles_info.outputs.issue_number }}
+
+            Added ${{ steps.dotfiles_info.outputs.username }}'s dotfiles to the ${{ steps.dotfiles_info.outputs.section }} section.
+          branch: "auto/add-dotfile-${{ steps.dotfiles_info.outputs.issue_number }}"
+          delete-branch: true
