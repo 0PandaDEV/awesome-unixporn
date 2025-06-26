@@ -51,7 +51,6 @@ body:
         - Spectrwm
         - DWL
         - River
-        - Other (please specify in description)
     validations:
       required: true
 
@@ -71,6 +70,24 @@ body:
       placeholder: https://www.reddit.com/r/unixporn/...
     validations:
       required: false
+
+  - type: textarea
+    id: image
+    attributes:
+      label: Preview Image
+      description: Paste an image here.
+      placeholder: It should look like this ![Image](https://github.com/user-attachments/assets/84884a94-7a7b-4b43-854b-f2a6a88d00a1)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: auto-convert
+    attributes:
+      label: Automatically Add to list
+      description: If this is checked the issue will be converted to a PR in your name and automatically added to the list.
+      options:
+        - label: I want to automatically add it
+          required: false
 
   - type: checkboxes
     id: terms
