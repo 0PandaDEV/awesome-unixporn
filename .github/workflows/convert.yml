@@ -55,6 +55,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            bun .github/scripts/auto-add-dotfile.mjs '${{ steps.get_issue.outputs.json }}' '${{ github.repository }}' '${{ inputs.issue_number }}'
+            bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ steps.get_issue.outputs.json }}' | jq -c '@html')"
           else
-            bun .github/scripts/auto-add-dotfile.mjs '${{ toJson(github.event.issue) }}' '${{ github.repository }}' '${{ github.event.issue.number }}'
+            bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ toJson(github.event.issue) }}' | jq -c '@html')"
