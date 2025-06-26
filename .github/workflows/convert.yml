@@ -20,10 +20,12 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const issue_number = context.payload.inputs.issue_number
+            console.log('Using issue_number:', issue_number)
             const issue = await github.rest.issues.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: parseInt(core.getInput('issue_number'))
+              issue_number: parseInt(issue_number)
             })
             core.setOutput('body', issue.data.body)
             core.setOutput('json', JSON.stringify(issue.data))
