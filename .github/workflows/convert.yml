@@ -2,7 +2,7 @@ name: Auto Convert Add Dotfiles
 
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [opened]
   workflow_dispatch:
     inputs:
       issue_number:
@@ -88,6 +88,7 @@ jobs:
           echo "issue_number=$ISSUE_NUM" >> $GITHUB_OUTPUT
       - name: Create Pull Request
         if: steps.check_autoconvert.outputs.auto_convert == 'true'
+        id: create_pr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -99,3 +100,39 @@ jobs:
             Added ${{ steps.dotfiles_info.outputs.username }}'s dotfiles to the ${{ steps.dotfiles_info.outputs.section }} section.
           branch: "auto/add-dotfile-${{ steps.dotfiles_info.outputs.issue_number }}"
           delete-branch: true
+      - name: Comment on issue and close it
+        if: steps.check_autoconvert.outputs.auto_convert == 'true' && steps.create_pr.outputs.pull-request-number
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issueNumber = ${{ steps.dotfiles_info.outputs.issue_number }};
+            const prNumber = ${{ steps.create_pr.outputs.pull-request-number }};
+            const username = '${{ steps.dotfiles_info.outputs.username }}';
+            const section = '${{ steps.dotfiles_info.outputs.section }}';
+
+            // Comment on the issue with PR link
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `🎉 **Automation Success!**
+
+            Your dotfiles have been automatically processed and added to the list!
+
+            **Details:**
+            - **Username:** ${username}
+            - **Section:** ${section}
+            - **Pull Request:** #${prNumber}
+
+            The pull request has been created and your dotfiles will be visible once it's merged. Thank you for contributing to awesome-unixporn! ✨
+
+            *This issue is now being automatically closed.*`
+            });
+
+            // Close the issue
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
