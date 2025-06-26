@@ -1,0 +1,22 @@
+name: Auto Convert Add Dotfiles
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+jobs:
+  auto-convert:
+    if: |
+      github.event.issue.labels.*.name contains 'Add'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - name: Run auto-add-dotfile script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bun .github/scripts/auto-add-dotfile.mjs '${{ toJson(github.event.issue) }}' '${{ github.repository }}' '${{ github.event.issue.number }}' '${{ github.actor }}'
