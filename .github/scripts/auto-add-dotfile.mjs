@@ -13,13 +13,13 @@ const getField = (id) => {
     new RegExp(
       `(?:^|\\n)\\s*### ${id.replace(
         /[-]/g,
-        "[-]"
+        "[-]",
       )}\\n([\\s\\S]*?)(?=\\n### |$)`,
-      "i"
+      "i",
     ),
     new RegExp(
       `### ${id.replace(/[-]/g, "[-]")}\\n([\\s\\S]*?)(?=\\n### |$)`,
-      "i"
+      "i",
     ),
   ];
 
@@ -67,7 +67,7 @@ const findInsertionPoint = (sectionContent, username) => {
 
 const autoConvertChecked = getCheckbox(
   "auto-convert",
-  "I want to automatically add it"
+  "I want to automatically add it",
 );
 if (!autoConvertChecked) process.exit(0);
 
@@ -92,14 +92,14 @@ if (sectionIndex === -1) process.exit(1);
 const nextSection = readme.indexOf("# ", sectionIndex + 1);
 const sectionContent = readme.slice(
   sectionIndex,
-  nextSection === -1 ? undefined : nextSection
+  nextSection === -1 ? undefined : nextSection,
 );
 const beforeSection = readme.slice(0, sectionIndex);
 const afterSection = nextSection === -1 ? "" : readme.slice(nextSection);
 
-const table = `<table>\n  <tr>\n    <td>\n      <a href=\"${dotfilesUrl}\">${username}</a> - ${description}\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"${
-  redditUrl || "#"
-}\">\n        <img src=\"${imgUrl}\" alt=\"reddit post\"/>\n      </a>\n    </td>\n  </tr>\n</table>\n\n`;
+const validRedditUrl =
+  redditUrl && redditUrl !== "_No response_" ? redditUrl : "#";
+const table = `<table>\n  <tr>\n    <td>\n      <a href=\"${dotfilesUrl}\">${username}</a> - ${description}\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <a href=\"${validRedditUrl}\">\n        <img src=\"${imgUrl}\" alt=\"reddit post\"/>\n      </a>\n    </td>\n  </tr>\n</table>\n\n`;
 
 const { insertionIndex } = findInsertionPoint(sectionContent, username);
 
@@ -132,7 +132,7 @@ console.log(`Image URL: "${imgUrl}"`);
 console.log("=========================");
 
 console.log(
-  `✅ Updated ${readmePath} with ${username}'s dotfiles for ${section}`
+  `✅ Updated ${readmePath} with ${username}'s dotfiles for ${section}`,
 );
 console.log(`📝 Description: ${description}`);
 console.log(`🔗 Dotfiles URL: ${dotfilesUrl}`);
