@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       issue_number:
-        description: 'Issue number to process'
+        description: "Issue number to process"
         required: true
         type: string
 
@@ -58,3 +58,4 @@ jobs:
             bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ steps.get_issue.outputs.json }}' | jq -c '@html')"
           else
             bun .github/scripts/auto-add-dotfile.mjs "$(echo '${{ toJson(github.event.issue) }}' | jq -c '@html')"
+          fi
