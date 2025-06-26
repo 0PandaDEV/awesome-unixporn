@@ -54,11 +54,11 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: dotfiles-description
+  - type: input
+    id: dotfiles-tagline
     attributes:
-      label: Description
-      description: Your description for the dotfiles preferably the same as the r/unixporn reddit post title.
+      label: Tagline
+      description: A one sentence tagline for the dotfiles preferably the same as the r/unixporn reddit post title.
     validations:
       required: true
 
