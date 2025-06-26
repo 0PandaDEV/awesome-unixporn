@@ -74,7 +74,7 @@ jobs:
           USERNAME=$(echo "$DOTFILES_URL" | sed 's|https://github.com/||' | cut -d'/' -f1)
 
           # Extract section from DE or WM field
-          SECTION=$(echo "$BODY" | sed -n '/### DE or WM/,/### /p' | grep -v "### " | head -1 | xargs | tr -d ' ')
+          SECTION=$(echo "$BODY" | sed -n '/### DE or WM/,/### /p' | grep -v "### " | head -1 | xargs)
 
           # Extract issue number
           ISSUE_NUM=$(echo "$ISSUE_DATA" | jq -r '.number')
