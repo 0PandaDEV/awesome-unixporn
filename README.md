@@ -427,6 +427,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 
 # Xmonad
 
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Limak15/limos">Limak15</a> - Simple, minimalistic desktop.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://github.com/user-attachments/assets/4c4089a6-5188-4973-82dc-083e7b2ccdf1" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 # Yabai
 
 <table>
