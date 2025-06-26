@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
   issues: read
 
 jobs:
@@ -66,9 +67,22 @@ jobs:
           ISSUE_JSON: ${{ github.event_name == 'workflow_dispatch' && steps.get_issue.outputs.json || toJson(github.event.issue) }}
         run: |
           ISSUE_DATA=$(echo "$ISSUE_JSON")
-          USERNAME=$(echo "$ISSUE_DATA" | jq -r '.body' | grep -A1 "### Dotfiles URL" | tail -1 | sed 's|https://github.com/||' | cut -d'/' -f1)
-          SECTION=$(echo "$ISSUE_DATA" | jq -r '.body' | grep -A1 "### DE or WM" | tail -1 | tr -d ' ')
+          BODY=$(echo "$ISSUE_DATA" | jq -r '.body')
+
+          # Extract username from dotfiles URL using more robust parsing
+          DOTFILES_URL=$(echo "$BODY" | sed -n '/### Dotfiles URL/,/### /p' | grep "https://github.com/" | head -1 | xargs)
+          USERNAME=$(echo "$DOTFILES_URL" | sed 's|https://github.com/||' | cut -d'/' -f1)
+
+          # Extract section from DE or WM field
+          SECTION=$(echo "$BODY" | sed -n '/### DE or WM/,/### /p' | grep -v "### " | head -1 | xargs | tr -d ' ')
+
+          # Extract issue number
           ISSUE_NUM=$(echo "$ISSUE_DATA" | jq -r '.number')
+
+          echo "DEBUG: USERNAME='$USERNAME'"
+          echo "DEBUG: SECTION='$SECTION'"
+          echo "DEBUG: ISSUE_NUM='$ISSUE_NUM'"
+
           echo "username=$USERNAME" >> $GITHUB_OUTPUT
           echo "section=$SECTION" >> $GITHUB_OUTPUT
           echo "issue_number=$ISSUE_NUM" >> $GITHUB_OUTPUT

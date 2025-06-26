@@ -10,13 +10,29 @@ const issue = JSON.parse(issueRaw);
 const issueNumber = issue.number;
 
 const getField = (id) => {
-  const f = issue.body.match(
+  // Make leading newline optional and handle both formats
+  const patterns = [
     new RegExp(
-      `\n\s*### ${id.replace(/[-]/g, "[-]")}\n([\s\S]*?)(?=\n### |$)`,
+      `(?:^|\\n)\\s*### ${id.replace(/[-]/g, "[-]")}\\n([\\s\\S]*?)(?=\\n### |$)`,
       "i",
     ),
-  );
-  return f ? f[1].trim() : "";
+    new RegExp(
+      `### ${id.replace(/[-]/g, "[-]")}\\n([\\s\\S]*?)(?=\\n### |$)`,
+      "i",
+    ),
+  ];
+
+  for (const pattern of patterns) {
+    const match = issue.body.match(pattern);
+    if (match) {
+      const result = match[1].trim();
+      console.log(`Found ${id}: "${result}"`);
+      return result;
+    }
+  }
+
+  console.log(`Field "${id}" not found in issue body`);
+  return "";
 };
 
 const getCheckbox = (id, label) => {
@@ -61,6 +77,16 @@ const newReadme = before + table + after;
 
 // Write the updated README to the file system
 await writeFile(readmePath, newReadme, "utf8");
+
+// Debug output
+console.log("=== Extraction Results ===");
+console.log(`Username: "${username}"`);
+console.log(`Section: "${section}"`);
+console.log(`Description: "${description}"`);
+console.log(`Dotfiles URL: "${dotfilesUrl}"`);
+console.log(`Reddit URL: "${redditUrl || "N/A"}"`);
+console.log(`Image URL: "${imgUrl}"`);
+console.log("=========================");
 
 console.log(
   `✅ Updated ${readmePath} with ${username}'s dotfiles for ${section}`,
