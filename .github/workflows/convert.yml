@@ -10,6 +10,11 @@ on:
         required: true
         type: string
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
 jobs:
   auto-convert:
     runs-on: ubuntu-latest
