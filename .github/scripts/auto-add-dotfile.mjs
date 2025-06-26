@@ -73,7 +73,7 @@ if (!autoConvertChecked) process.exit(0);
 
 const dotfilesUrl = getField("Dotfiles URL");
 const appCategory = getField("DE or WM");
-const description = getField("Description");
+const description = getField("Tagline");
 const redditUrl = getField("Reddit URL \\(optional\\)");
 const image = getField("Preview Image");
 
