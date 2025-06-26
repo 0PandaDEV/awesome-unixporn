@@ -100,6 +100,7 @@ jobs:
             Added ${{ steps.dotfiles_info.outputs.username }}'s dotfiles to the ${{ steps.dotfiles_info.outputs.section }} section.
           branch: "auto/add-dotfile-${{ steps.dotfiles_info.outputs.issue_number }}"
           delete-branch: true
+          assignees: 0PandaDEV
       - name: Comment on issue
         if: steps.check_autoconvert.outputs.auto_convert == 'true' && steps.create_pr.outputs.pull-request-number
         uses: actions/github-script@v7
