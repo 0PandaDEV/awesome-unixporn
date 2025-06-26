@@ -95,6 +95,8 @@ jobs:
           commit-message: "feat(readme): add ${{ steps.dotfiles_info.outputs.username }} dotfiles for ${{ steps.dotfiles_info.outputs.section }}"
           title: "add: ${{ steps.dotfiles_info.outputs.username }} dotfiles for ${{ steps.dotfiles_info.outputs.section }}"
           body: |
+            Closes #${{ steps.dotfiles_info.outputs.issue_number }}
+
             Auto-generated PR from issue #${{ steps.dotfiles_info.outputs.issue_number }}
 
             Added ${{ steps.dotfiles_info.outputs.username }}'s dotfiles to the ${{ steps.dotfiles_info.outputs.section }} section.
