@@ -132,6 +132,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/Beast-Viper/ViperDots-Hyprland">Beast-Viper</a> - My Colourful Hyprland setup.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1it602x/hyprland_my_colourful_hyprland_setup/">
+        <img src="https://github.com/user-attachments/assets/b3848b6b-6e3b-4537-9758-45bf10aa0e3c" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/Chiron8/Glaciera-Dots">Chiron8</a> - My first rice (and using Gentoo!)
     </td>
   </tr>
