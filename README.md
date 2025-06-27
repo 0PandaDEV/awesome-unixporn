@@ -278,6 +278,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/SherLock707/hyprland_dot_yadm">SherLock707</a> - Tiling and Ultrawide: Keeping It Fresh – The Same Colors Get Old Fast!
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1k8xkgf/hyprland_tiling_and_ultrawide_keeping_it_fresh/">
+        <img src="https://github.com/user-attachments/assets/c879debc-c6b0-4874-859b-e7b329ccbd0b" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/caelestia-dots/shell">soramannew</a> - I <3 Quickshell.
     </td>
   </tr>
