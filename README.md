@@ -278,6 +278,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/Sem1Rose/fabric-shell">Sem1Rose</a> - My first Material Design rice with Hyprland & Fabric
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://github.com/user-attachments/assets/d2792275-c457-459a-8bd6-3ab99c34ef48" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/SherLock707/hyprland_dot_yadm">SherLock707</a> - Tiling and Ultrawide: Keeping It Fresh – The Same Colors Get Old Fast!
     </td>
   </tr>
