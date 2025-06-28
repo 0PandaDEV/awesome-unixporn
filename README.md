@@ -263,6 +263,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/gkkconan/dotfiles">gkkconan</a> - Double themed hyprland dotfiles: lightweight, clean and designed for productivity.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/gkkconan/dotfiles/refs/heads/main/.github/showcase.png" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/papengav/dotfiles">papengav</a> - Minimal Catpuccin + Macchiato.
     </td>
   </tr>
