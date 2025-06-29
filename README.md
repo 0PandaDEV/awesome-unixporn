@@ -278,6 +278,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 <table>
   <tr>
     <td>
+      <a href="https://github.com/n6v26r/.dotfiles">n6v26r</a> - Now I understand the hype
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1lmw3b5/hyprland_lets_see_what_all_the_hype_is_about/">
+        <img src="https://github.com/user-attachments/assets/eb3d9252-d8c1-4584-81ee-77d5d3f49c13" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
       <a href="https://github.com/papengav/dotfiles">papengav</a> - Minimal Catpuccin + Macchiato.
     </td>
   </tr>
