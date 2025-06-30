@@ -454,6 +454,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
 
 # i3
 
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/n6v26r/.dotfiles">n6v26r</a> - Simple and colorful - Catppuccin Mocha theme
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.reddit.com/r/unixporn/comments/1f797qq/i3_need_to_stop_wasting_time/">
+        <img src="https://github.com/user-attachments/assets/1d5e9048-a70f-4270-b7f3-075dc265d6db" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 # LeftWM
 
 # LXQt
