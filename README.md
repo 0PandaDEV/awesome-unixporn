@@ -138,6 +138,21 @@ This is a collection of dotfiles from the best and most unique [r/unixporn](http
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/SakibShahariar/Material-Gnome.git">SakibShahariar</a> - Minimal, magical, Material You
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="#">
+        <img src="https://github.com/user-attachments/assets/2da8ae09-497a-459b-a4cd-67f471fc9c04" alt="reddit post"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 # Hyprland
 
 <table>
